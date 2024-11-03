@@ -40,7 +40,7 @@ function Nav() {
         </div></section>
    <section id="about">ABOUT</section>
    <section id="experience">EXPERIENCE</section>
-   <section id="portfolio">PORTFOLIO</section>
+   <section id="portfolio"><a href="https://achyutha-reddy.github.io/connectme/">CONNECT ME</a></section>
    <section id="qualification">QUALIFICATION</section>
    <section id="contact">CONTACT</section>
    </div>
