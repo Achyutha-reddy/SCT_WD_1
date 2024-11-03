@@ -31,7 +31,7 @@ nav a{
     margin-left: 35px;
     transition: 0.3s;
 }
-nav a:hover{
+nav a:hover,nav a.active{
     color: #101820;
     font-weight: 900;
     font-size: larger;
@@ -49,4 +49,24 @@ section{
 section:nth-child(even){
     color: white;
     background: black;
+}
+#place::after{
+    content: "";
+    animation-name: achyuth;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color:#1995AD;
+    font-size: larger;
+    font-weight: 800;
+}
+  @keyframes achyuth{
+    0%{content: "WEB DEVELOPMENT";}
+    30%{content: "DATA SCIENCE";}
+    30%{content: "MACHINE LEARNING";}
+    40%{content: "ANDROID DEVELOPMENT";}
+    50%{content: "SOFTWARE DEVELOPMENT";}
+    60%{content: "CYBER SECURITY";}
+    70%{content: "GRAPHIC DESIGN";}
+    80%{content: "UI/UX DESIGN";}
+    100%{content: "DIGITAL MARKETING";}
 }

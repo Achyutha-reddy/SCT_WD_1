@@ -24,6 +24,7 @@ function Nav() {
    <div>
     <header>
     <a href="#" className='logo'>SkillCraftTechnology.</a>
+    
     <nav>
         <a href="#home" className='active'>HOME</a>
         <a href="#about">ABOUT</a>
@@ -34,7 +35,9 @@ function Nav() {
     </nav>
    </header>
   
-   <section id="home">HOME</section>
+   <section id="home">   <div>
+            <h1 id='start'>Let's Learn <span id="place"></span></h1>
+        </div></section>
    <section id="about">ABOUT</section>
    <section id="experience">EXPERIENCE</section>
    <section id="portfolio">PORTFOLIO</section>
