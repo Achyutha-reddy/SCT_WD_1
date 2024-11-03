@@ -40,7 +40,7 @@ function Nav() {
         </div></section>
    <section id="about">ABOUT</section>
    <section id="experience">EXPERIENCE</section>
-   <section id="portfolio">CONTACT</section>
+   <section id="portfolio">PORTFOLIO</section>
    <section id="qualification">QUALIFICATION</section>
    <section id="contact">CONTACT</section>
    </div>
