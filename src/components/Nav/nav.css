@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    padding: 20px 120px;
+    background:#1995AD;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    color: #F1F1F2;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a{
+    font-size: 18px;
+    color: #F1F1F2;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: #101820;
+    font-weight: 900;
+    font-size: larger;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    font-size: 100px;
+    color: black;
+    font-weight: 700;
+}
+section:nth-child(even){
+    color: white;
+    background: black;
+}
