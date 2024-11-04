@@ -27,22 +27,20 @@ function Nav() {
     
     <nav>
         <a href="#home" className='active'>HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#experience">EXPERIENCE</a>
-        <a href="#portfolio">PORTFOLIO</a>
-        <a href="#qualification">QUALIFICATION</a>
-        <a href="#contact">CONTACT</a>
+        <a href="#task1">TASK-1</a>
+        <a href="#task2">TASK-2</a>
+        <a href="#task3">TASK-3</a>
+        <a href="#task4">TASK-4</a>
     </nav>
    </header>
   
    <section id="home">   <div>
-            <h1 id='start'>Let's Learn <span id="place"></span></h1>
+            <h1 id='start'>WEB DEVELOPMENT <span style={{color:'yellow'}}>TASKS-</span> <span id="place"></span></h1>
         </div></section>
-   <section id="about">ABOUT</section>
-   <section id="experience">EXPERIENCE</section>
-   <section id="portfolio">PORTFOLIO</section>
-   <section id="qualification">QUALIFICATION</section>
-   <section id="contact">CONTACT</section>
+   <section id="task1">RESPONSIVE LANDING PAGE</section>
+   <section id="task2">STOP-WATCH</section>
+   <section id="task3">TIC-TAC-TOE</section>
+   <section id="task4">TO-DO-LIST</section>
    </div>
    
    
