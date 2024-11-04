@@ -64,7 +64,7 @@ section:nth-child(even){
     25%{content: "STOP WATCH";color: #1995AD}
     50%{content: "TIC-TAC-TOE";color: #1995AD}
     75%{content: "TO-DO-LIST";color: #1995AD;}
-    100%{content: "SkillCraftTechnologies";color: white;}
+    100%{content: "SkillCraftTechnologies";color: white;font-size:larger;}
 }
 section h1 .start{
     font-size: larger;
