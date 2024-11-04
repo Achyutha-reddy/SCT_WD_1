@@ -56,15 +56,15 @@ section:nth-child(even){
     animation-duration: 8s;
     animation-iteration-count: infinite;
     color:#1995AD;
-    font-size: larger;
-    font-weight: 800;
+    /* font-size: larger; */
+    /* font-weight: 800; */
 }
   @keyframes achyuth{
-    0%{content: "RESPONSIVE LANDING PAGE";color: #1995AD;font-weight: 800;font-size: smaller;}
-    25%{content: "STOP WATCH";color: #1995AD}
-    50%{content: "TIC-TAC-TOE";color: #1995AD}
-    75%{content: "TO-DO-LIST";color: #1995AD;}
-    100%{content: "SkillCraftTechnologies";color: white;font-size:larger;}
+    0%{content: "RESPONSIVE LANDING PAGE";color: #1995AD;}
+    30%{content: "STOP WATCH";color: #1995AD;}
+    60%{content: "TIC-TAC-TOE";color: #1995AD}
+    90%{content: "TO-DO-LIST";color: #1995AD;}
+    100%{content: "SkillCraftTechnologies";color: white;font-size:smaller;}
 }
 section h1 .start{
     font-size: larger;
